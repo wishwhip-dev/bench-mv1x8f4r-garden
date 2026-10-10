@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { PostFooter } from "@/components/post-footer";
 import { Prose } from "@/components/prose";
 import { SeasonBadge } from "@/components/season-badge";
 import { listPosts } from "@/lib/posts";
