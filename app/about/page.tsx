@@ -114,7 +114,11 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <PostFooter />
-    </article>
-  );
-}
+      <nav aria-label="Back to the diary" className="border-t border-border pt-6">
+        <Link
+          href="/"
+          className="inline-flex min-h-11 items-center gap-2 text-sm text-primary no-underline hover:underline"
+        >
+          ← All posts
+        </Link>
+      </nav>
