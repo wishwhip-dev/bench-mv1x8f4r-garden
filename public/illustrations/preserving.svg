@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Jars of tomato chutney cooling on a counter beside a big preserving pan">
+  <!-- wall -->
+  <rect width="1200" height="800" fill="#e8ddc4"/>
+  <!-- shelf with cookbooks -->
+  <rect x="90" y="120" width="1020" height="24" rx="6" fill="#cfa972" stroke="#3a352b" stroke-width="6"/>
+  <g stroke="#3a352b" stroke-width="5">
+    <rect x="140" y="40" width="52" height="80" rx="4" fill="#7a5a8a"/>
+    <rect x="200" y="52" width="46" height="68" rx="4" fill="#c94f3d"/>
+    <rect x="254" y="46" width="56" height="74" rx="4" fill="#6a8a4a"/>
+    <rect x="318" y="56" width="44" height="64" rx="4" fill="#d88a3a"/>
+  </g>
+  <g fill="#3a352b">
+    <rect x="420" y="70" width="90" height="12" rx="6"/>
+    <rect x="420" y="94" width="70" height="10" rx="5" opacity="0.6"/>
+  </g>
+
+  <!-- counter -->
+  <rect x="0" y="520" width="1200" height="40" fill="#a3794e" stroke="#3a352b" stroke-width="6"/>
+  <rect x="0" y="560" width="1200" height="240" fill="#8a6a45"/>
+  <g stroke="#6b4f35" stroke-width="5">
+    <line x1="0" y1="620" x2="1200" y2="620"/>
+    <line x1="0" y1="700" x2="1200" y2="700"/>
+    <line x1="300" y1="560" x2="300" y2="800"/>
+    <line x1="860" y1="560" x2="860" y2="800"/>
+  </g>
+
+  <!-- preserving pan with steam -->
+  <g>
+    <path d="M700 400 Q 694 400 694 416 L 694 490 Q 694 518 730 518 L 1010 518 Q 1046 518 1046 490 L 1046 416 Q 1046 400 1040 400 Z" fill="#6b7280" stroke="#3a352b" stroke-width="7"/>
+    <ellipse cx="870" cy="400" rx="176" ry="22" fill="#9aa2ac" stroke="#3a352b" stroke-width="6"/>
+    <path d="M694 420 Q 640 428 636 470 Q 634 500 700 504" fill="none" stroke="#3a352b" stroke-width="9"/>
+    <ellipse cx="870" cy="398" rx="140" ry="14" fill="#8a3a2a"/>
+    <path d="M820 380 Q 812 340 824 310" fill="none" stroke="#b8b4a8" stroke-width="8" stroke-linecap="round"/>
+    <path d="M880 376 Q 890 336 878 300" fill="none" stroke="#b8b4a8" stroke-width="8" stroke-linecap="round"/>
+    <path d="M930 382 Q 940 348 930 316" fill="none" stroke="#b8b4a8" stroke-width="8" stroke-linecap="round"/>
+    <!-- wooden spoon -->
+    <path d="M960 300 L 1000 380" stroke="#a3794e" stroke-width="16" stroke-linecap="round"/>
+    <ellipse cx="1004" cy="390" rx="18" ry="24" fill="#a3794e" stroke="#3a352b" stroke-width="5" transform="rotate(28 1004 390)"/>
+  </g>
+
+  <!-- jars -->
+  <g>
+    <!-- jar 1 -->
+    <rect x="120" y="300" width="170" height="220" rx="16" fill="#c98a4a" stroke="#3a352b" stroke-width="6"/>
+    <rect x="112" y="270" width="186" height="38" rx="8" fill="#c94f3d" stroke="#3a352b" stroke-width="6"/>
+    <rect x="140" y="356" width="130" height="64" rx="8" fill="#f7f1de" stroke="#3a352b" stroke-width="4"/>
+    <rect x="152" y="374" width="106" height="10" rx="5" fill="#3a352b"/>
+    <rect x="152" y="394" width="80" height="9" rx="4" fill="#6b6455"/>
+    <!-- jar 2 -->
+    <rect x="330" y="316" width="170" height="204" rx="16" fill="#a8552a" stroke="#3a352b" stroke-width="6"/>
+    <rect x="322" y="286" width="186" height="38" rx="8" fill="#6a8a4a" stroke="#3a352b" stroke-width="6"/>
+    <rect x="350" y="372" width="130" height="64" rx="8" fill="#f7f1de" stroke="#3a352b" stroke-width="4"/>
+    <rect x="362" y="390" width="106" height="10" rx="5" fill="#3a352b"/>
+    <rect x="362" y="410" width="80" height="9" rx="4" fill="#6b6455"/>
+    <!-- jar 3, half full, still warm -->
+    <rect x="540" y="330" width="150" height="190" rx="16" fill="#d8955a" stroke="#3a352b" stroke-width="6"/>
+    <rect x="533" y="302" width="164" height="36" rx="8" fill="#6cc4d6" stroke="#3a352b" stroke-width="6"/>
+    <rect x="566" y="380" width="98" height="52" rx="8" fill="#f7f1de" stroke="#3a352b" stroke-width="4"/>
+    <rect x="576" y="396" width="78" height="9" rx="4" fill="#3a352b"/>
+  </g>
+  <!-- labels' string -->
+  <path d="M205 356 Q 240 340 260 352" fill="none" stroke="#8a6a45" stroke-width="4"/>
+  <path d="M415 372 Q 450 356 470 368" fill="none" stroke="#8a6a45" stroke-width="4"/>
+
+  <!-- chopped tomatoes waiting in the bowl -->
+  <g>
+    <path d="M180 700 Q 176 668 220 664 L 420 664 Q 464 668 460 700 Q 464 744 420 748 L 220 748 Q 176 744 180 700 Z" fill="#e8e0ce" stroke="#3a352b" stroke-width="6"/>
+    <circle cx="250" cy="700" r="26" fill="#c94f3d" stroke="#3a352b" stroke-width="5"/>
+    <circle cx="320" cy="692" r="30" fill="#d86a3a" stroke="#3a352b" stroke-width="5"/>
+    <circle cx="386" cy="702" r="26" fill="#b8402e" stroke="#3a352b" stroke-width="5"/>
+  </g>
+</svg>

@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Raised beds tucked under cardboard and straw on a frosty December morning">
+  <!-- winter sky -->
+  <rect width="1200" height="800" fill="#cdd8de"/>
+  <circle cx="240" cy="170" r="54" fill="#f2ede0" stroke="#b8c2c8" stroke-width="5"/>
+  <path d="M560 140 Q 640 110 720 144 T 880 148" fill="none" stroke="#f2ede0" stroke-width="24" stroke-linecap="round"/>
+  <!-- bare tree -->
+  <g stroke="#5a4a3a" stroke-width="10" fill="none" stroke-linecap="round">
+    <path d="M980 540 L 980 380"/>
+    <path d="M980 420 Q 930 380 900 320"/>
+    <path d="M980 400 Q 1030 360 1050 300"/>
+    <path d="M900 320 Q 880 290 886 260"/>
+    <path d="M1050 300 Q 1070 270 1064 240"/>
+    <path d="M980 470 Q 940 450 920 410"/>
+    <path d="M980 480 Q 1024 460 1040 430"/>
+  </g>
+  <!-- fence -->
+  <g stroke="#8a6a45" stroke-width="12">
+    <line x1="60" y1="330" x2="60" y2="540"/>
+    <line x1="220" y1="330" x2="220" y2="540"/>
+    <line x1="380" y1="330" x2="380" y2="540"/>
+    <line x1="60" y1="370" x2="380" y2="366"/>
+    <line x1="60" y1="450" x2="380" y2="446"/>
+  </g>
+
+  <!-- snowy ground -->
+  <path d="M0 540 Q 300 512 600 540 T 1200 536 L 1200 800 L 0 800 Z" fill="#e8ecef" stroke="#3a352b" stroke-width="5"/>
+
+  <!-- bed 1, under cardboard weighted with bricks -->
+  <g>
+    <path d="M90 660 L 110 570 L 520 570 L 540 660 Z" fill="#c9a briefly"/>
+    <path d="M90 660 L 110 570 L 520 570 L 540 660 Z" fill="#8a6a45" stroke="#3a352b" stroke-width="7"/>
+    <!-- cardboard sheet -->
+    <path d="M100 640 L 122 566 L 508 566 L 528 640 Z" fill="#c9b48a" stroke="#3a352b" stroke-width="6"/>
+    <g stroke="#a89670" stroke-width="4" fill="none">
+      <path d="M140 630 L 156 578"/>
+      <path d="M240 632 L 250 578"/>
+      <path d="M350 632 L 344 578"/>
+      <path d="M450 630 L 440 578"/>
+    </g>
+    <!-- straw poking out -->
+    <g stroke="#d8b46a" stroke-width="6" stroke-linecap="round">
+      <line x1="120" y1="646" x2="88" y2="628"/>
+      <line x1="150" y1="652" x2="122" y2="640"/>
+      <line x1="480" y1="648" x2="516" y2="630"/>
+      <line x1="452" y1="654" x2="480" y2="644"/>
+    </g>
+    <!-- bricks -->
+    <rect x="180" y="548" width="70" height="26" rx="4" fill="#a85a3a" stroke="#3a352b" stroke-width="5"/>
+    <rect x="380" y="548" width="70" height="26" rx="4" fill="#a85a3a" stroke="#3a352b" stroke-width="5"/>
+  </g>
+
+  <!-- bed 2, under straw blanket -->
+  <g>
+    <path d="M640 664 L 660 574 L 1110 574 L 1130 664 Z" fill="#8a6a45" stroke="#3a352b" stroke-width="7"/>
+    <!-- straw layer -->
+    <path d="M652 648 L 668 580 L 1102 580 L 1118 648 Z" fill="#d8b46a" stroke="#3a352b" stroke-width="6"/>
+    <g stroke="#b8904a" stroke-width="5" fill="none" stroke-linecap="round">
+      <path d="M672 620 Q 760 600 850 618 T 1090 614"/>
+      <path d="M668 596 Q 760 580 860 594 T 1096 592"/>
+      <path d="M690 640 Q 790 626 900 638 T 1100 636"/>
+    </g>
+    <g stroke="#e8cf96" stroke-width="4" stroke-linecap="round">
+      <line x1="700" y1="610" x2="750" y2="596"/>
+      <line x1="800" y1="616" x2="856" y2="604"/>
+      <line x1="920" y1="610" x2="972" y2="600"/>
+      <line x1="700" y1="634" x2="742" y2="624"/>
+      <line x1="880" y1="636" x2="930" y2="626"/>
+    </g>
+  </g>
+
+  <!-- frost sparkles -->
+  <g fill="#ffffff" stroke="#9ab0bc" stroke-width="2">
+    <path d="M100 720 L 106 706 L 112 720 L 106 734 Z"/>
+    <path d="M300 760 L 306 746 L 312 760 L 306 774 Z"/>
+    <path d="M560 730 L 566 716 L 572 730 L 566 744 Z"/>
+    <path d="M760 760 L 766 746 L 772 760 L 766 774 Z"/>
+    <path d="M1020 720 L 1026 706 L 1032 720 L 1026 734 Z"/>
+    <path d="M180 700 L 184 690 L 188 700 L 184 710 Z"/>
+    <path d="M880 700 L 884 690 L 888 700 L 884 710 Z"/>
+  </g>
+
+  <!-- wheelbarrow parked -->
+  <g>
+    <path d="M620 740 L 700 740 L 688 700 L 632 700 Z" fill="#6b7280" stroke="#3a352b" stroke-width="6"/>
+    <path d="M700 740 L 800 756" stroke="#3a352b" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="620" cy="756" r="20" fill="#3a352b"/>
+    <circle cx="620" cy="756" r="7" fill="#8a8a8a"/>
+  </g>
+</svg>
