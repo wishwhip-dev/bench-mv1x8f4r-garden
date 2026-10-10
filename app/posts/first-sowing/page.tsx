@@ -12,8 +12,7 @@ const SLUG = "first-sowing";
 
 export function generateMetadata(): Metadata {
   const post = getPost(SLUG);
-  if (!post) notFound();
-  return null;
+  return { title: post?.title, description: post?.blurb };
 }
 
 export default function Page() {
