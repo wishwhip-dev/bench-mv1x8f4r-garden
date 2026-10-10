@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Seed catalogues and a pencil spread across a kitchen table">
+  <!-- paper backdrop -->
+  <rect width="1200" height="800" fill="#efe6cf"/>
+  <rect x="0" y="520" width="1200" height="280" fill="#b98d5f"/>
+  <rect x="0" y="520" width="1200" height="14" fill="#a3794e"/>
+  <path d="M0 520 Q 300 512 600 520 T 1200 520" fill="none" stroke="#8f6a42" stroke-width="5"/>
+
+  <!-- catalogue, back -->
+  <g transform="rotate(-4 430 330)">
+    <rect x="180" y="180" width="500" height="330" rx="10" fill="#f7f1de" stroke="#3a352b" stroke-width="6"/>
+    <rect x="212" y="222" width="436" height="130" rx="6" fill="#8fae6a" stroke="#3a352b" stroke-width="5"/>
+    <path d="M240 330 Q 330 250 420 320 T 620 300" fill="none" stroke="#eef4e2" stroke-width="7" stroke-linecap="round"/>
+    <path d="M250 250 Q 360 320 460 260 T 640 330" fill="none" stroke="#eef4e2" stroke-width="7" stroke-linecap="round"/>
+    <rect x="212" y="382" width="180" height="16" rx="8" fill="#3a352b"/>
+    <rect x="212" y="416" width="420" height="10" rx="5" fill="#c9bda0"/>
+    <rect x="212" y="440" width="380" height="10" rx="5" fill="#c9bda0"/>
+    <rect x="212" y="464" width="410" height="10" rx="5" fill="#c9bda0"/>
+  </g>
+
+  <!-- catalogue, front -->
+  <g transform="rotate(3 700 420)">
+    <rect x="430" y="270" width="520" height="330" rx="10" fill="#e8b24a" stroke="#3a352b" stroke-width="6"/>
+    <circle cx="560" cy="370" r="52" fill="#c94f3d" stroke="#3a352b" stroke-width="5"/>
+    <path d="M560 330 Q 575 355 560 372 Q 545 355 560 330 Z" fill="#7a9a5a"/>
+    <circle cx="810" cy="380" r="42" fill="#d88a3a" stroke="#3a352b" stroke-width="5"/>
+    <rect x="470" y="452" width="200" height="18" rx="9" fill="#3a352b"/>
+    <rect x="470" y="492" width="440" height="10" rx="5" fill="#7a5a20"/>
+    <rect x="470" y="516" width="400" height="10" rx="5" fill="#7a5a20"/>
+    <rect x="470" y="540" width="430" height="10" rx="5" fill="#7a5a20"/>
+  </g>
+
+  <!-- loose seed packets -->
+  <g transform="rotate(-8 210 640)">
+    <rect x="120" y="590" width="180" height="110" rx="8" fill="#f7f1de" stroke="#3a352b" stroke-width="5"/>
+    <rect x="140" y="612" width="140" height="52" rx="5" fill="#d88a3a" stroke="#3a352b" stroke-width="4"/>
+    <rect x="140" y="676" width="100" height="9" rx="4" fill="#3a352b"/>
+  </g>
+  <g transform="rotate(10 1010 620)">
+    <rect x="920" y="570" width="180" height="110" rx="8" fill="#f7f1de" stroke="#3a352b" stroke-width="5"/>
+    <rect x="940" y="592" width="140" height="52" rx="5" fill="#8fae6a" stroke="#3a352b" stroke-width="4"/>
+    <rect x="940" y="656" width="100" height="9" rx="4" fill="#3a352b"/>
+  </g>
+
+  <!-- pencil -->
+  <g transform="rotate(-14 830 660)">
+    <rect x="700" y="646" width="220" height="20" rx="4" fill="#d8a23a" stroke="#3a352b" stroke-width="4"/>
+    <path d="M920 646 L 958 656 L 920 666 Z" fill="#e8cfa0" stroke="#3a352b" stroke-width="4"/>
+    <rect x="680" y="644" width="24" height="24" rx="4" fill="#c94f3d" stroke="#3a352b" stroke-width="4"/>
+  </g>
+
+  <!-- mug of tea -->
+  <g>
+    <path d="M110 620 L 122 740 Q 124 762 148 762 L 258 762 Q 282 762 284 740 L 296 620 Z" fill="#e8e0ce" stroke="#3a352b" stroke-width="6"/>
+    <ellipse cx="203" cy="620" rx="93" ry="20" fill="#8a5a30" stroke="#3a352b" stroke-width="6"/>
+    <path d="M296 646 Q 350 640 344 676 Q 340 700 292 696" fill="none" stroke="#3a352b" stroke-width="6"/>
+    <path d="M160 596 Q 168 570 158 550" fill="none" stroke="#9a9a8a" stroke-width="6" stroke-linecap="round"/>
+    <path d="M205 592 Q 214 566 204 544" fill="none" stroke="#9a9a8a" stroke-width="6" stroke-linecap="round"/>
+    <path d="M248 596 Q 256 572 246 552" fill="none" stroke="#9a9a8a" stroke-width="6" stroke-linecap="round"/>
+  </g>
+
+  <!-- circled items, as if ticked with the pencil -->
+  <ellipse cx="565" cy="500" rx="42" ry="26" fill="none" stroke="#8a4a2a" stroke-width="5" transform="rotate(-6 565 500)"/>
+  <ellipse cx="690" cy="505" rx="46" ry="28" fill="none" stroke="#8a4a2a" stroke-width="5" transform="rotate(4 690 505)"/>
+</svg>
