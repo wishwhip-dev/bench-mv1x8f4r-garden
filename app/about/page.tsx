@@ -122,3 +122,6 @@ export default function AboutPage() {
           ← All posts
         </Link>
       </nav>
+    </article>
+  );
+}
