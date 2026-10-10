@@ -27,7 +27,6 @@
 
   <!-- bed 1, under cardboard weighted with bricks -->
   <g>
-    <path d="M90 660 L 110 570 L 520 570 L 540 660 Z" fill="#c9a briefly"/>
     <path d="M90 660 L 110 570 L 520 570 L 540 660 Z" fill="#8a6a45" stroke="#3a352b" stroke-width="7"/>
     <!-- cardboard sheet -->
     <path d="M100 640 L 122 566 L 508 566 L 528 640 Z" fill="#c9b48a" stroke="#3a352b" stroke-width="6"/>

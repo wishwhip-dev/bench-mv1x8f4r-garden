@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="An open notebook with next year's four-bed rotation sketched out, beside a seed tin and a pencil">
+  <!-- tabletop -->
+  <rect width="1200" height="800" fill="#b98d5f"/>
+  <g stroke="#a3794e" stroke-width="4" opacity="0.7">
+    <line x1="0" y1="120" x2="1200" y2="112"/>
+    <line x1="0" y1="260" x2="1200" y2="250"/>
+    <line x1="0" y1="420" x2="1200" y2="408"/>
+    <line x1="0" y1="600" x2="1200" y2="590"/>
+    <line x1="0" y1="740" x2="1200" y2="732"/>
+  </g>
+
+  <!-- seed tin -->
+  <g>
+    <ellipse cx="960" cy="600" rx="190" ry="66" fill="#6cc4d6" stroke="#3a352b" stroke-width="7"/>
+    <path d="M770 600 L 770 540 Q 960 480 1150 540 L 1150 600" fill="#8ed4e2" stroke="#3a352b" stroke-width="7"/>
+    <ellipse cx="960" cy="540" rx="190" ry="62" fill="#a8e0ea" stroke="#3a352b" stroke-width="7"/>
+    <path d="M810 540 Q 960 500 1110 540" fill="none" stroke="#4aa8bc" stroke-width="6"/>
+    <rect x="880" y="524" width="160" height="30" rx="8" fill="#f7f1de" stroke="#3a352b" stroke-width="4"/>
+  </g>
+
+  <!-- open notebook -->
+  <g>
+    <path d="M120 200 Q 118 180 140 178 L 420 168 Q 440 168 442 186 L 448 660 Q 448 680 426 682 L 146 692 Q 124 692 124 674 Z" fill="#f7f1de" stroke="#3a352b" stroke-width="7"/>
+    <path d="M640 196 Q 642 178 662 176 L 950 186 Q 972 188 972 206 L 960 680 Q 960 698 938 696 L 668 686 Q 646 684 646 666 Z" fill="#f7f1de" stroke="#3a352b" stroke-width="7"/>
+    <!-- spine -->
+    <path d="M442 186 L 448 660 M 646 666 L 640 196" stroke="#3a352b" stroke-width="6"/>
+    <path d="M446 180 Q 545 160 642 184" fill="none" stroke="#3a352b" stroke-width="8"/>
+
+    <!-- left page: ruled lines + title -->
+    <g stroke="#c9bda0" stroke-width="3">
+      <line x1="180" y1="250" x2="400" y2="244"/>
+      <line x1="182" y1="300" x2="402" y2="294"/>
+      <line x1="184" y1="350" x2="404" y2="344"/>
+      <line x1="186" y1="400" x2="406" y2="394"/>
+      <line x1="188" y1="450" x2="408" y2="444"/>
+    </g>
+    <path d="M190 240 Q 280 232 380 238" fill="none" stroke="#8a4a2a" stroke-width="8" stroke-linecap="round"/>
+
+    <!-- right page: the four beds sketched -->
+    <g fill="#efe6cf" stroke="#3a352b" stroke-width="5">
+      <rect x="700" y="240" width="110" height="150" rx="6"/>
+      <rect x="830" y="240" width="110" height="150" rx="6"/>
+      <rect x="700" y="420" width="110" height="150" rx="6"/>
+      <rect x="830" y="420" width="110" height="150" rx="6"/>
+    </g>
+    <!-- crop rows inside each bed -->
+    <g stroke="#7a9a5a" stroke-width="6" stroke-linecap="round">
+      <path d="M712 270 L 796 266 M 712 300 L 796 296 M 712 330 L 796 326 M 712 360 L 796 356"/>
+      <path d="M842 270 L 926 266 M 842 300 L 926 296 M 842 330 L 926 326 M 842 360 L 926 356"/>
+      <path d="M712 450 L 796 446 M 712 480 L 796 476 M 712 510 L 796 506 M 712 540 L 796 536"/>
+      <path d="M842 450 L 926 446 M 842 480 L 926 476 M 842 510 L 926 506 M 842 540 L 926 536"/>
+    </g>
+    <!-- bed numbers -->
+    <g fill="#3a352b">
+      <circle cx="755" cy="230" r="4"/>
+      <circle cx="885" cy="230" r="4"/>
+    </g>
+    <!-- arrows showing the rotation -->
+    <g fill="none" stroke="#8a4a2a" stroke-width="5" stroke-linecap="round">
+      <path d="M812 300 Q 822 310 830 302"/>
+      <path d="M880 500 Q 870 512 856 506"/>
+      <path d="M800 490 Q 790 500 802 508"/>
+      <path d="M886 300 Q 896 292 902 302"/>
+    </g>
+    <!-- notes beside the sketch -->
+    <g stroke="#c9bda0" stroke-width="3">
+      <line x1="680" y1="610" x2="930" y2="606"/>
+      <line x1="682" y1="640" x2="900" y2="636"/>
+    </g>
+  </g>
+
+  <!-- pencil on the notebook -->
+  <g transform="rotate(-18 300 580)">
+    <rect x="180" y="570" width="230" height="22" rx="4" fill="#d8a23a" stroke="#3a352b" stroke-width="4"/>
+    <path d="M410 570 L 450 581 L 410 592 Z" fill="#e8cfa0" stroke="#3a352b" stroke-width="4"/>
+    <rect x="158" y="568" width="26" height="26" rx="4" fill="#c94f3d" stroke="#3a352b" stroke-width="4"/>
+  </g>
+
+  <!-- mug of tea in the corner -->
+  <g>
+    <path d="M90 690 L 100 770 Q 102 786 120 786 L 200 786 Q 218 786 220 770 L 230 690 Z" fill="#e8e0ce" stroke="#3a352b" stroke-width="6"/>
+    <ellipse cx="160" cy="690" rx="70" ry="15" fill="#8a5a30" stroke="#3a352b" stroke-width="6"/>
+    <path d="M228 706 Q 268 702 264 730 Q 260 748 224 744" fill="none" stroke="#3a352b" stroke-width="6"/>
+  </g>
+</svg>
