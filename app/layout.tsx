@@ -34,7 +34,14 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
               <Link href="/" className="inline-flex min-h-11 items-center text-lg font-semibold tracking-tight no-underline">
                 {identity.name}
               </Link>
-              <span className="text-sm text-muted-foreground">Notes and essays</span>
+              <nav aria-label="Site" className="flex items-center gap-2">
+                <Link
+                  href="/about"
+                  className="inline-flex min-h-11 items-center rounded-md px-2 text-sm text-muted-foreground no-underline hover:text-primary"
+                >
+                  About
+                </Link>
+              </nav>
             </header>
             <main className="flex-1">{children}</main>
             <footer className="border-t border-border pt-5 text-sm text-muted-foreground">

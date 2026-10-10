@@ -1,0 +1,19 @@
+# Plan
+
+Goal: A small blog where I write short posts about my vegetable garden through the seasons: a title, a date, a few paragraphs and one photo per post, newest first, with an about page. Readers should be able to share a post.
+
+1. app/identity.ts is updated so the site is named as a seasonal vegetable-garden diary (e.g. 'The Kitchen Garden'), with a matching description written as what the blog is, and the browser tab title shows that name.
+2. Eight posts exist under app/posts/, each a directory with meta.json (title, one-sentence blurb, YYYY-MM-DD published date, season tag among spring/summer/autumn/winter) and page.tsx, with two posts per season spread across the year — seed ordering and first sowing in spring, watering and pests in summer, tomato harvest and preserving in autumn, putting the beds to bed and winter planning in winter — so the seasons pass as you scroll the index.
+3. Each post's meta.json sets "prose": true, deliberately opting the diary-style posts out of the interactive-density check, since these posts are writing-led by design.
+4. Each post page opens with PostHeader (title, date, season tag) and contains at least four substantial paragraphs of body copy inside the Prose scope, on its own garden topic with concrete details (what was sown, what failed, what was picked and when) — no thin one-paragraph posts.
+5. Each post embeds exactly one full-width illustration matching the goal's one-photo-per-post rule: since no photograph files can be produced here, eight unique hand-drawn SVG illustrations live in public/illustrations/, one per post, each rendered via next/image (unoptimized) with descriptive alt text naming the scene (e.g. 'Seedling trays on a windowsill in March') and scaled to the column width.
+6. The generated index (app/page.tsx) lists all eight posts newest first, each card showing its title, blurb, date and a season badge where each of the four seasons uses a visually distinct badge colour, and links to its own /posts/<slug> route.
+7. Every post page sets its own generateMetadata from meta.json, so the browser tab reads the post's title through the layout's title template rather than the site name alone.
+8. An About page exists at /about as its own static route, containing who writes the blog, where the garden is (plot size, soil, orientation), what gets written through the year, and a season-by-season list of what is in the beds, with each season linking to its posts; a link to /about is reachable from the site header.
+9. Every post page ends with a Share control: clicking it opens a dialog showing the post's full URL with a Copy link button; after copying, a visible 'Copied' confirmation appears; if the clipboard is unavailable or the copy fails, the URL remains visible in the dialog as selectable text so sharing still works; where the browser supports it the dialog also offers native share via navigator.share (rendered only when supported), and the dialog closes with Escape or a Close button.
+10. The share dialog is fully keyboard-operable: the Share button and Copy button are focusable and activate with Enter, and focus returns to the Share button when the dialog closes.
+11. Every post page ends with a link back to the index and a link to the About page, so no route is a dead end.
+12. Every route — /, /about and each /posts/<slug> — renders its full content when opened directly at its own URL with no prior navigation, no console errors, no failed requests and no hydration warnings.
+13. At phone width (~375px) the index cards stack in a single column, illustrations shrink to fit the viewport without horizontal scrolling, long titles and blurbs wrap without overflowing their cards, text remains readable, and every link and button is at least 32px tall and wide.
+
+These are the outcomes this task is judged against.

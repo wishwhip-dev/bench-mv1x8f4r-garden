@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="A watering can sprinkling a raised bed of young seedlings under a July sun">
+  <!-- sky -->
+  <rect width="1200" height="800" fill="#dce8de"/>
+  <circle cx="1010" cy="150" r="86" fill="#e8c96b" stroke="#c9a23a" stroke-width="6"/>
+  <g stroke="#c9a23a" stroke-width="7" stroke-linecap="round">
+    <line x1="1010" y1="30" x2="1010" y2="58"/>
+    <line x1="1010" y1="242" x2="1010" y2="270"/>
+    <line x1="890" y1="150" x2="918" y2="150"/>
+    <line x1="1102" y1="150" x2="1130" y2="150"/>
+    <line x1="926" y1="66" x2="946" y2="86"/>
+    <line x1="1074" y1="214" x2="1094" y2="234"/>
+    <line x1="1074" y1="86" x2="1094" y2="66"/>
+    <line x1="926" y1="234" x2="946" y2="214"/>
+  </g>
+  <path d="M120 150 Q 200 118 280 150 T 440 152" fill="none" stroke="#f2f4ea" stroke-width="26" stroke-linecap="round"/>
+
+  <!-- hedge behind -->
+  <path d="M0 430 Q 150 380 300 424 Q 450 372 600 420 Q 760 368 900 418 Q 1060 376 1200 420 L 1200 520 L 0 520 Z" fill="#6a8a4a" stroke="#3a352b" stroke-width="5"/>
+
+  <!-- raised bed -->
+  <path d="M60 700 L 96 540 L 1104 540 L 1140 700 Z" fill="#6b4f35" stroke="#3a352b" stroke-width="7"/>
+  <rect x="60" y="528" width="1080" height="26" rx="8" fill="#8a6a45" stroke="#3a352b" stroke-width="6"/>
+  <!-- soil rows -->
+  <path d="M120 620 Q 600 596 1080 618" fill="none" stroke="#4a3520" stroke-width="10" stroke-linecap="round"/>
+  <path d="M110 668 Q 600 646 1090 666" fill="none" stroke="#4a3520" stroke-width="10" stroke-linecap="round"/>
+
+  <!-- seedling rows -->
+  <g fill="#8fae6a" stroke="#3a352b" stroke-width="4">
+    <path d="M200 540 Q 192 480 168 458"/>
+    <path d="M200 540 Q 210 478 236 460"/>
+    <path d="M380 540 Q 372 480 348 458"/>
+    <path d="M380 540 Q 390 478 416 460"/>
+    <path d="M560 540 Q 552 480 528 458"/>
+    <path d="M560 540 Q 570 478 596 460"/>
+    <path d="M740 540 Q 732 480 708 458"/>
+    <path d="M740 540 Q 750 478 776 460"/>
+    <path d="M920 540 Q 912 480 888 458"/>
+    <path d="M920 540 Q 930 478 956 460"/>
+  </g>
+
+  <!-- watering can -->
+  <g>
+    <!-- body -->
+    <path d="M470 250 Q 458 250 456 268 L 432 420 Q 430 448 462 448 L 640 448 Q 672 448 670 420 L 646 268 Q 644 250 626 250 Z" fill="#6cc4d6" stroke="#3a352b" stroke-width="7"/>
+    <!-- top opening -->
+    <ellipse cx="548" cy="250" rx="82" ry="16" fill="#4aa8bc" stroke="#3a352b" stroke-width="6"/>
+    <!-- spout -->
+    <path d="M462 300 Q 360 300 300 250 Q 282 234 296 220 L 322 200 Q 336 190 348 204 Q 396 268 470 272 Z" fill="#6cc4d6" stroke="#3a352b" stroke-width="7"/>
+    <!-- rose -->
+    <ellipse cx="306" cy="204" rx="34" ry="24" fill="#4aa8bc" stroke="#3a352b" stroke-width="6" transform="rotate(-40 306 204)"/>
+    <!-- handle -->
+    <path d="M640 290 Q 740 300 736 370 Q 732 428 656 428" fill="none" stroke="#3a352b" stroke-width="10" stroke-linecap="round"/>
+  </g>
+
+  <!-- spray -->
+  <g stroke="#4aa8bc" stroke-width="6" stroke-linecap="round" fill="none">
+    <path d="M280 220 Q 240 280 208 340"/>
+    <path d="M292 226 Q 268 290 246 352"/>
+    <path d="M304 234 Q 296 300 286 362"/>
+    <path d="M316 244 Q 326 306 330 366"/>
+    <path d="M328 256 Q 352 314 368 368"/>
+  </g>
+  <g fill="#6cc4d6">
+    <circle cx="204" cy="360" r="7"/>
+    <circle cx="252" cy="374" r="7"/>
+    <circle cx="290" cy="382" r="7"/>
+    <circle cx="334" cy="386" r="7"/>
+    <circle cx="374" cy="388" r="7"/>
+    <circle cx="228" cy="410" r="6"/>
+    <circle cx="310" cy="416" r="6"/>
+    <circle cx="360" cy="420" r="6"/>
+  </g>
+
+  <!-- darkened wet patch on the bed -->
+  <path d="M150 560 Q 300 540 460 556 Q 420 600 300 604 Q 200 606 150 560 Z" fill="#4a3520" opacity="0.55"/>
+</svg>

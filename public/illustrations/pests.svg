@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Blackfly aphids clustered along a broad bean stem, with a ladybird arriving to eat them">
+  <!-- backdrop -->
+  <rect width="1200" height="800" fill="#e4e8d2"/>
+  <!-- distant foliage -->
+  <path d="M0 620 Q 200 540 400 610 Q 620 528 840 604 Q 1040 540 1200 606 L 1200 800 L 0 800 Z" fill="#a8bf82" stroke="#3a352b" stroke-width="5"/>
+  <path d="M0 700 Q 240 640 480 700 T 960 704 T 1200 690 L 1200 800 L 0 800 Z" fill="#7a9a5a" stroke="#3a352b" stroke-width="5"/>
+
+  <!-- bean stem -->
+  <path d="M600 800 Q 588 640 606 480 Q 618 360 596 220" fill="none" stroke="#5a7a3a" stroke-width="18" stroke-linecap="round"/>
+  <path d="M600 800 Q 588 640 606 480 Q 618 360 596 220" fill="none" stroke="#7a9a5a" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- leaves -->
+  <g fill="#8fae6a" stroke="#3a352b" stroke-width="6">
+    <path d="M604 470 Q 480 420 420 320 Q 540 330 604 440 Z"/>
+    <path d="M598 450 Q 720 400 780 300 Q 660 310 596 420 Z"/>
+    <path d="M596 250 Q 500 200 470 120 Q 580 140 606 230 Z"/>
+    <path d="M594 240 Q 690 190 720 110 Q 610 130 584 220 Z"/>
+  </g>
+  <g stroke="#5a7a3a" stroke-width="4" fill="none">
+    <path d="M590 450 Q 520 400 468 340"/>
+    <path d="M612 432 Q 690 380 744 316"/>
+    <path d="M588 244 Q 530 200 494 140"/>
+    <path d="M600 228 Q 660 184 700 126"/>
+  </g>
+
+  <!-- aphid clusters on the stem -->
+  <g fill="#2a2420" stroke="#111" stroke-width="0">
+    <!-- lower colony -->
+    <ellipse cx="592" cy="620" rx="13" ry="10"/>
+    <ellipse cx="614" cy="600" rx="12" ry="9"/>
+    <ellipse cx="578" cy="586" rx="11" ry="9"/>
+    <ellipse cx="602" cy="566" rx="12" ry="9"/>
+    <ellipse cx="588" cy="546" rx="11" ry="8"/>
+    <ellipse cx="610" cy="528" rx="10" ry="8"/>
+    <!-- mid colony -->
+    <ellipse cx="600" cy="420" rx="13" ry="10"/>
+    <ellipse cx="580" cy="400" rx="11" ry="9"/>
+    <ellipse cx="616" cy="384" rx="12" ry="9"/>
+    <ellipse cx="594" cy="362" rx="11" ry="8"/>
+  </g>
+  <!-- tiny legs -->
+  <g stroke="#2a2420" stroke-width="3" stroke-linecap="round" fill="none">
+    <path d="M584 624 L 566 634"/>
+    <path d="M602 626 L 596 640"/>
+    <path d="M606 598 L 620 610"/>
+    <path d="M584 588 L 568 596"/>
+    <path d="M604 424 L 590 436"/>
+    <path d="M610 388 L 624 398"/>
+  </g>
+
+  <!-- curled afflicted leaf tip -->
+  <path d="M604 470 Q 560 500 520 496 Q 548 458 588 448 Z" fill="#5a7a3a" stroke="#3a352b" stroke-width="5"/>
+
+  <!-- ladybird climbing up from below -->
+  <g transform="rotate(-12 470 690)">
+    <ellipse cx="470" cy="690" rx="44" ry="36" fill="#c94f3d" stroke="#3a352b" stroke-width="6"/>
+    <line x1="470" y1="656" x2="470" y2="724" stroke="#3a352b" stroke-width="5"/>
+    <path d="M470 656 Q 448 668 452 694" fill="none" stroke="#3a352b" stroke-width="5"/>
+    <circle cx="452" cy="676" r="6" fill="#2a2420"/>
+    <circle cx="486" cy="682" r="6" fill="#2a2420"/>
+    <circle cx="458" cy="706" r="6" fill="#2a2420"/>
+    <circle cx="488" cy="704" r="5" fill="#2a2420"/>
+    <circle cx="470" cy="652" r="16" fill="#2a2420"/>
+    <circle cx="464" cy="648" r="4" fill="#f2ede0"/>
+    <circle cx="478" cy="648" r="4" fill="#f2ede0"/>
+  </g>
+  <!-- ladybird's stem grip -->
+  <g stroke="#2a2420" stroke-width="5" stroke-linecap="round" fill="none">
+    <path d="M452 716 L 436 742"/>
+    <path d="M490 712 L 504 740"/>
+  </g>
+
+  <!-- a hoverfly checking the other leaf -->
+  <g transform="translate(840 240)">
+    <ellipse cx="0" cy="0" rx="30" ry="18" fill="#e8c96b" stroke="#3a352b" stroke-width="5"/>
+    <path d="M-8 -16 Q -2 0 -8 16" fill="none" stroke="#3a352b" stroke-width="4"/>
+    <path d="M10 -15 Q 16 0 10 15" fill="none" stroke="#3a352b" stroke-width="4"/>
+    <ellipse cx="-18" cy="-8" rx="18" ry="10" fill="#f2ede0" opacity="0.75" transform="rotate(-24 -18 -8)"/>
+    <circle cx="-24" cy="-2" r="5" fill="#2a2420"/>
+  </g>
+</svg>
